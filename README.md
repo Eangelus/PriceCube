@@ -1,4 +1,10 @@
+## Projektkontext
 
+Dieses Repository dokumentiert die strukturelle Erweiterung und technische Konzeption eines internen Prototyps zur automatisierten Preislogik.  
+Die Umsetzung erfolgte unter Berücksichtigung interner Richtlinien und Datenschutzvorgaben.  
+Im Fokus standen Skalierbarkeit, Modularität, Trennschärfe und technische Nachvollziehbarkeit.  
+Die aktuelle Logik basiert auf einer homogenen Item-Struktur und dient als Grundlage für polymorphe Erweiterungen.  
+Versionsgeführte Metriken und Architekturansätze sind intern dokumentiert und wurden zur weiteren Evaluierung empfohlen.
 ---
 
 🏆 THOMAS BERNECKER – SENIOR-LEVEL ENTWICKLERPORTFOLIO  
