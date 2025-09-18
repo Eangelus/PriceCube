@@ -99,3 +99,62 @@ Feature-Zyklen mit Commit-Zuordnung
 - CRUD-Optimierung → Commits #201–#220
 
 ---
+
+🧠 STÄRKEN-SCHWÄCHEN  
+Stärken  
+- Vollstack-Kompetenz mit Fokus auf Clean Architecture  
+- Testing & Dokumentation von Anfang an  
+- 96 % Solo-Commits → hohe Eigenverantwortung  
+- Excel Engine als technisches Alleinstellungsmerkmal  
+- Security-First & Performance-Fokus  
+- Architekturverständnis über Projektgrenzen hinaus  
+- Refactoring-Kompetenz mit messbarem Impact  
+- Git-Disziplin & Feature-Zyklen sauber dokumentiert
+
+Entwicklungsbereiche  
+- Team-Kollaboration in verteilten Setups  
+- Microservices Erfahrung (noch nicht produktiv)  
+- Cloud-Native Skills (bewusst lokal priorisiert)  
+- Advanced DB Tuning & Query-Optimierung  
+- CI/CD in produktiver Umgebung (aktuell staging-fokussiert)
+
+🧪 CODE QUALITY & REFACTORING  
+Refactoring-Erfolg  
+VORHER: DashboardService (787 Zeilen, God Object)  
+NACHHER:  
+- DashboardService_Refactored (~200 Zeilen)  
+- LogParsingService  
+- DecimalParsingService  
+→ Separation of Concerns erreicht ✅  
+→ 60 % Performance-Steigerung  
+→ Testbarkeit & Lesbarkeit deutlich verbessert  
+→ Commit-Zyklus dokumentiert (#156–#180)
+
+📊 BENCHMARKING & INDUSTRIEVERGLEICH  
+Code-Komplexität: ★★★★★  
+Architekturqualität: ★★★★★  
+Produktivität: ★★★★★  
+Dokumentation: ★★★★☆  
+Testing: ★★★★☆  
+Innovation: ★★★★★  
+→ Vergleichbar mit Senior-Level Open-Source-Projekten  
+→ Alle Metriken aus GitHub & Prometheus verifizierbar
+
+📞 KONTAKT & VERIFIZIERUNG  
+Thomas Bernecker  
+GitHub: github.com/eangelus/PriceCube  
+E-Mail: bernecker.thomas@gmx.de 
+
+Live-Demo verfügbar  
+- Real-time Dashboard  
+- Excel-Verarbeitung mit Validierung  
+- CRUD-Demo mit SignalR  
+- Architektur-Walkthrough  
+- Code-Review-Sessions auf Anfrage  
+- Prometheus-Dashboard auf Anfrage
+
+🔐 DISCLAIMER  
+Dieses Portfolio basiert ausschließlich auf selbst entwickelten Komponenten, öffentlich zugänglichen Technologien und abstrahierten Projektbeschreibungen. Es werden keine vertraulichen Informationen, keine internen Daten und keine geschützten Inhalte der Lindner Group offengelegt. Die ERP-Integration mit Oxaion wird exemplarisch dargestellt und enthält keine produktiven Zugangsdaten oder proprietäre Schnittstellen.
+
+---
+
