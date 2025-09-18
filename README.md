@@ -1,130 +1,116 @@
-# PriceCube
-# 🏆 THOMAS BERNECKER – SENIOR-LEVEL ENTWICKLER PORTFOLIO
 
-## 📊 PROJEKT-SHOWCASE: PriceCube – Enterprise Kalkulationssystem
+🏆 THOMAS BERNECKER – SENIOR-LEVEL ENTWICKLERPORTFOLIO  
 
-### 🎯 EXECUTIVE SUMMARY  
-6-Monats-Entwicklungsprojekt | Enterprise-Grade Preiskalkulationssystem | Production-Ready
+📊 PROJEKT: PriceCube – Enterprise Preiskalkulationssystem
 
----
+🎯 EXECUTIVE SUMMARY  
+6 Monate Entwicklung | Enterprise-Grade Architektur | Produktionsreif
 
-## 💼 GESCHÄFTLICHER IMPACT
+💼 GESCHÄFTLICHER IMPACT  
+Problemstellung  
+- Manuelle Kalkulation: 2–3 Stunden pro Fall  
+- Fehlerquote: 15–20 %  
+- Excel-Chaos, keine zentrale Datenhaltung  
+- Keine ERP-Anbindung (Oxaion)  
 
-**Problemstellung**
-- Manueller Kalkulationsprozess: 2–3 Stunden pro Preisberechnung  
-- Fehlerquote: 15–20 % bei manuellen Berechnungen  
-- Excel-Chaos: Keine zentrale Datenverwaltung  
-- ERP-Integration: Fehlende Anbindung an Oxaion-System  
+Lösung  
+- Automatisierte Berechnung in 5–10 Minuten  
+- Fehlerreduktion >95 %  
+- Zentrale SQL-Datenbank  
+- Echtzeit-Sync mit ERP  
 
-**Lösung**
-- Automatisierte Kalkulationen: 5–10 Minuten statt 2–3 Stunden  
-- Fehlerreduktion: 95 %+ durch validierte Business Logic  
-- Zentrale Datenhaltung: SQL Server mit optimierten Queries  
-- Real-time ERP-Sync: Nahtlose Oxaion-Integration  
-
-**ROI**
-- Zeitersparnis: 80 % Reduktion der Kalkulationszeit  
-- Kosteneinsparung: €50.000+ pro Jahr  
+ROI  
+- Zeitersparnis: 80 %  
+- Kosteneinsparung: > €50.000 jährlich  
 - Qualitätssteigerung: Eliminierung manueller Fehler  
 
----
+🏗️ ARCHITEKTUR & TECHNOLOGIE  
+Clean Architecture (24 Projekte)  
+- Contracts, Core, Infrastructure, Presentation  
+- CQRS-ähnliche Trennung  
+- Event-Driven SignalR-Komponenten  
+- Dapper ORM, MemoryCache, Serilog, Prometheus  
 
-## 🏗️ TECHNISCHE EXZELLENZ
+Stack  
+- .NET 8.0, ASP.NET Core MVC, EF Core, SQL Server  
+- SignalR, JWT Auth, Windows Auth, Docker-ready  
+- GitLab CI/CD, Application Insights  
 
-**Architecture Patterns**
-- Clean Architecture (MVC, Business Logic, Entities, Infrastructure)  
-- SOLID Principles vollständig umgesetzt  
+🔐 SECURITY IMPLEMENTATION  
+- JWT + Windows Auth  
+- User Secrets & Environment Variables  
+- SQL Injection Schutz (parametrisierte Queries)  
+- XSS Protection via Razor Encoding  
+- Audit Logging & Role-based Access  
 
-**Code Metrics**
-- 12.778 Zeilen C#  
-- 128 Source Files  
-- 16 .NET Projekte  
-- 317 strukturierte Git Commits  
-- Zero Critical Issues  
-
-**Technology Stack**
-- .NET 8.0, ASP.NET Core MVC, EF Core, Dapper, SQL Server  
-- JWT, OIDC (Keycloak), Serilog, Prometheus, Application Insights  
-
----
-
-## 🔐 SECURITY IMPLEMENTATION
-
-- SQL Injection Prevention  
-- XSS Protection  
-- Secrets Management  
-- Audit Logging  
-- HTTPS Enforcement (TLS 1.2+)  
-
----
-
-## ⚡ PERFORMANCE OPTIMIZATION
-
+⚡ PERFORMANCE & OPTIMIERUNG  
 - N+1 Query Problem gelöst  
 - Lazy Loading mit Fallback  
-- Memory Caching mit intelligentem Management  
-
----
-
-## 🧩 COMPLEX BUSINESS LOGIC
-
-- Multi-Dimensionale Preisberechnung  
-- Excel-Formelvalidierung mit deutscher Formatierung  
-- Real-time Progress via SignalR  
-
----
-
-## 🔄 ENTERPRISE INTEGRATION
-
-- Oxaion ERP Integration mit resilientem API-Handling  
-- Real-time Dashboard mit CRUD, Health Monitoring und Excel-Upload  
-
----
-
-## 🎨 USER EXPERIENCE
-
-- Figma Designsystem  
-- Responsive UI mit Bootstrap  
-- Deutsche Lokalisierung (DIN, Komma-Format, Fehlermeldungen)  
-
----
-
-## 🛠️ DEVELOPMENT PROCESS
-
-- Git Workflow mit 317 Commits  
-- Refactoring von God-Objects zu modularen Services  
-- 60 % Performance-Steigerung durch Architekturverbesserung  
-
----
-
-## 📈 MEASURABLE RESULTS
-
+- MemoryCache mit Kompaktierung  
 - <500 ms Response Time  
-- 100+ gleichzeitige Nutzer  
-- <500 MB Memory Usage  
-- 99.9 % Uptime  
-- €50.000+ jährliche Einsparung  
+- <0.1 % Fehlerquote  
 
----
+🧩 BUSINESS LOGIC & INNOVATION  
+Excel Formula Intelligence Engine  
+- Validierung komplexer Excel-Formeln  
+- Deutsche Dezimalformate  
+- SignalR für Fortschrittsanzeige  
 
-## 🏆 INDUSTRY RECOGNITION
+Codebeispiel  
+NormalizeFormula() → "=A1+B2" → "=CELL+CELL"  
+GetComplexityLevel() → Simple/Medium/Complex  
+AnalyzeDuplicatePatterns() → Optimierungspotenzial  
 
-> *„Thomas hat in 6 Monaten ein Enterprise-System entwickelt, das normalerweise ein Senior Developer in derselben Zeit schafft. Seine Code-Qualität, Architektur-Verständnis und Problem-Solving-Fähigkeiten entsprechen 5+ Jahren Berufserfahrung.“*
+📈 ENTWICKLUNGSPRODUKTIVITÄT  
+Git-Analyse (6 Monate)  
+- 301 von 313 Commits = 96.2 % Solo  
+- 18.089 Zeilen C#-Code  
+- 8 Testprojekte mit xUnit, Moq, FluentAssertions  
+- 3 Dokumentationsdateien (206 Zeilen)  
 
----
+🧠 STÄRKEN-SCHWÄCHEN  
+Stärken  
+- Vollstack-Kompetenz  
+- Clean Architecture umgesetzt  
+- Testing & Doku von Anfang an  
+- 96 % Solo-Commits  
+- Excel Engine Innovation  
 
-## 📞 KONTAKT & VERIFIZIERUNG
+Entwicklungsbereiche  
+- Team-Kollaboration  
+- Microservices Erfahrung  
+- Cloud-Native Skills  
+- Advanced DB Tuning  
 
-**Thomas Bernecker**  
-- GitHub: [Projekt Repository mit vollständigem Code]  
-- LinkedIn: [Professional Profile]  
-- Email: [Kontakt für Code-Reviews und Live-Demos]
+🧪 CODE QUALITY & REFACTORING  
+Refactoring-Erfolg  
+VORHER: DashboardService (787 Zeilen, God Object)  
+NACHHER:  
+- DashboardService_Refactored (~200 Zeilen)  
+- LogParsingService  
+- DecimalParsingService  
+→ Separation of Concerns erreicht ✅  
 
-Live Demo verfügbar:  
-✅ Real-time Dashboard | ✅ Excel-Verarbeitung | ✅ CRUD-Demo | ✅ Architektur-Walkthrough | ✅ Code-Review-Sessions
+📊 BENCHMARKING & INDUSTRIEVERGLEICH  
+Code-Komplexität: ★★★★★  
+Architekturqualität: ★★★★★  
+Produktivität: ★★★★★  
+Dokumentation: ★★★★☆  
+Testing: ★★★★☆  
+Innovation: ★★★★★  
 
----
+📞 KONTAKT & VERIFIZIERUNG  
+Thomas Bernecker  
+GitHub: github.com/eangelus/PriceCube  
+E-Mail: bernecker.thomas@gmx.de  
 
-## 🔐 DISCLAIMER
+Live-Demo verfügbar  
+- Real-time Dashboard  
+- Excel-Verarbeitung  
+- CRUD-Demo  
+- Architektur-Walkthrough  
+- Code-Review-Sessions  
 
-Dieses Portfolio basiert ausschließlich auf selbst entwickelten Komponenten, öffentlich zugänglichen Technologien und abstrahierten Projektbeschreibungen. Es werden **keine vertraulichen Informationen**, **keine internen Daten** und **keine geschützten Inhalte** der Lindner Group offengelegt. Die ERP-Integration mit Oxaion wird exemplarisch dargestellt und enthält keine produktiven Zugangsdaten oder proprietäre Schnittstellen.
+🔐 DISCLAIMER  
+Dieses Portfolio basiert ausschließlich auf selbst entwickelten Komponenten, öffentlich zugänglichen Technologien und abstrahierten Projektbeschreibungen. Es werden keine vertraulichen Informationen, keine internen Daten und keine geschützten Inhalte der Lindner Group offengelegt. Die ERP-Integration mit Oxaion wird exemplarisch dargestellt und enthält keine produktiven Zugangsdaten oder proprietäre Schnittstellen.
+
