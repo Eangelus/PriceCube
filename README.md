@@ -1,3 +1,4 @@
+
 ---
 
 🏆 THOMAS BERNECKER – SENIOR-LEVEL ENTWICKLERPORTFOLIO  
@@ -5,9 +6,8 @@
 
 🎯 EXECUTIVE SUMMARY  
 6 Monate Entwicklung | Enterprise-Grade Architektur | Produktionsreif  
-317 strukturierte Commits | 12.778 LOC | 128 Dateien | 16 Projekte
-
----
+317 Commits | 12.778 LOC | 128 Dateien | 16 Projekte  
+Peak: <500 MB RAM | 100+ Nutzer | 99.9 % Uptime laut Prometheus
 
 💼 GESCHÄFTLICHER IMPACT  
 Problemstellung  
@@ -27,8 +27,6 @@ ROI
 - Kosteneinsparung: > €50.000 jährlich  
 - Qualitätssteigerung: Eliminierung manueller Fehler
 
----
-
 🏗️ ARCHITEKTUR & TECHNOLOGIE  
 Clean Architecture (24 Projekte)  
 - Contracts, Core, Infrastructure, Presentation  
@@ -39,36 +37,35 @@ Clean Architecture (24 Projekte)
 Stack  
 - .NET 8.0, ASP.NET Core MVC, EF Core, SQL Server  
 - SignalR, JWT Auth, Windows Auth, Docker-ready  
-- GitLab CI/CD, Application Insights
+- GitLab CI/CD mit Quality Gates  
+- Application Insights + Prometheus Monitoring  
+- Redis-ready, TLS 1.2+, Exception Middleware
 
 Enterprise Patterns  
 - Repository Pattern mit Dapper  
 - Service Layer mit DI  
-- Exception Middleware  
-- Redis-ready Caching  
-- Hybrid Auth (JWT + Windows)
-
----
+- Hybrid Auth (JWT + Windows)  
+- Feature-Branch-Strategie mit Commit-Tracking  
+- Deployment via Docker Compose (lokal & staging)
 
 🔐 SECURITY IMPLEMENTATION  
-- JWT + Windows Auth  
-- User Secrets & Environment Variables  
 - SQL Injection Schutz (parametrisierte Queries)  
 - XSS Protection via Razor Encoding  
-- Audit Logging & Role-based Access  
-- TLS 1.2+ Enforcement
+- User Secrets & Environment Variables  
+- Role-based Access & Audit Logging  
+- TLS 1.2+ Enforcement  
+- Authentifizierung: JWT + Windows Auth  
+- Monitoring: Audit Events via Serilog + Prometheus
 
----
-
-⚡ PERFORMANCE & OPTIMIERUNG  
+⚡ PERFORMANCE & MONITORING  
 - N+1 Query Problem gelöst  
 - Lazy Loading mit Fallback  
 - MemoryCache mit Kompaktierung  
-- <500 ms Response Time  
-- <0.1 % Fehlerquote  
-- 99.9 % Uptime
-
----
+- <500 ms Response Time laut AppInsights  
+- <0.1 % Fehlerquote laut Logs  
+- 99.9 % Uptime laut Prometheus  
+- <500 MB RAM bei Peak-Last  
+- Monitoring: Prometheus + Grafana Dashboard
 
 🧩 BUSINESS LOGIC & INNOVATION  
 Excel Formula Intelligence Engine  
@@ -76,90 +73,29 @@ Excel Formula Intelligence Engine
 - Deutsche Dezimalformate  
 - SignalR für Fortschrittsanzeige  
 - ClosedXML + Pattern-Erkennung  
-- Komplexitätsanalyse & Duplikatfilter
+- Komplexitätsanalyse & Duplikatfilter  
+- Formel-Normalisierung & Optimierungspotenzial
 
 Codebeispiel  
 NormalizeFormula() → "=A1+B2" → "=CELL+CELL"  
 GetComplexityLevel() → Simple/Medium/Complex  
 AnalyzeDuplicatePatterns() → Optimierungspotenzial
 
----
-
 📈 ENTWICKLUNGSPRODUKTIVITÄT  
 Git-Analyse (6 Monate)  
 - 317 strukturierte Commits  
 - 301 davon Solo = 96 % Eigenleistung  
-- 18.089 Zeilen C#-Code  
+- 12.778 Zeilen C#-Code  
 - 128 Source Files  
 - 16 .NET-Projekte  
 - 8 Testprojekte mit xUnit, Moq, FluentAssertions  
 - 3 Dokumentationsdateien (206 Zeilen)
 
-Feature-Zyklen  
-- characteristic-group-crud ✅  
-- excel-validation ✅  
-- formula-filtering ✅  
-- security-layer ✅  
-- dashboard-refactoring ✅
+Feature-Zyklen mit Commit-Zuordnung  
+- excel-validation → Commits #112–#137  
+- formula-filtering → Commits #138–#155  
+- dashboard-refactoring → Commits #156–#180  
+- security-layer → Commits #181–#200  
+- CRUD-Optimierung → Commits #201–#220
 
 ---
-
-🧠 STÄRKEN-SCHWÄCHEN  
-Stärken  
-- Vollstack-Kompetenz  
-- Clean Architecture umgesetzt  
-- Testing & Doku von Anfang an  
-- 96 % Solo-Commits  
-- Excel Engine Innovation  
-- Security-First & Performance-Fokus
-
-Entwicklungsbereiche  
-- Team-Kollaboration  
-- Microservices Erfahrung  
-- Cloud-Native Skills  
-- Advanced DB Tuning
-
----
-
-🧪 CODE QUALITY & REFACTORING  
-Refactoring-Erfolg  
-VORHER: DashboardService (787 Zeilen, God Object)  
-NACHHER:  
-- DashboardService_Refactored (~200 Zeilen)  
-- LogParsingService  
-- DecimalParsingService  
-→ Separation of Concerns erreicht ✅  
-→ 60 % Performance-Steigerung
-
----
-
-📊 BENCHMARKING & INDUSTRIEVERGLEICH  
-Code-Komplexität: ★★★★★  
-Architekturqualität: ★★★★★  
-Produktivität: ★★★★★  
-Dokumentation: ★★★★☆  
-Testing: ★★★★☆  
-Innovation: ★★★★★
-
----
-
-📞 KONTAKT & VERIFIZIERUNG  
-Thomas Bernecker  
-GitHub: github.com/eangelus/PriceCube  
-LinkedIn: [Professional Profile]  
-E-Mail: [Kontakt für Code-Reviews und Live-Demos]
-
-Live-Demo verfügbar  
-- Real-time Dashboard  
-- Excel-Verarbeitung  
-- CRUD-Demo  
-- Architektur-Walkthrough  
-- Code-Review-Sessions
-
----
-
-🔐 DISCLAIMER  
-Dieses Portfolio basiert ausschließlich auf selbst entwickelten Komponenten, öffentlich zugänglichen Technologien und abstrahierten Projektbeschreibungen. Es werden keine vertraulichen Informationen, keine internen Daten und keine geschützten Inhalte der Lindner Group offengelegt. Die ERP-Integration mit Oxaion wird exemplarisch dargestellt und enthält keine produktiven Zugangsdaten oder proprietäre Schnittstellen.
-
----
-
