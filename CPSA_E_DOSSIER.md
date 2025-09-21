@@ -38,7 +38,7 @@ Wie kann ein komplexes Preismodell mit Excel-Formeln, ERP-Daten und Benutzerinte
 - Security durch Multi-Layer Auth und HTTPS Enforcement
 
 **Validierung**:  
-Peer Review durch Mentorin nach 4 Monaten, dokumentiert in [backend-review.pdf](./backend-review.pdf)
+Peer Review durch Mentorin nach 4 Monaten, dokumentiert in [Backend_Review_Barthuber.pdf](./Backend_Review_Barthuber.pdf)
 
 **Reflexion**:  
 - Async-Anti-Pattern wurde später erkannt und refactored  
