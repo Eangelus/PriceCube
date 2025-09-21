@@ -591,7 +591,9 @@
 - Entwickelt in nur 6 Monaten, produktiv im Einsatz
 - Markdown-Dokumentation mobil kopierbar
 - Architektur sichtbar gemacht in ARCHITECTURE.md
-
+![Last Commit](https://img.shields.io/github/last-commit/Eangleus/PriceCube)
+![Repo Size](https://img.shields.io/github/repo-size/Eangleus/PriceCube)
+![Issues](https://img.shields.io/github/issues/Eangleus/PriceCube)
   ---
   📞 CONTACT & VERIFICATION
 
