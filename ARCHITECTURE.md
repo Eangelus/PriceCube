@@ -34,7 +34,6 @@ PriceCube ist ein lokal ausgeführtes Preiskalkulationssystem für komplexe Prod
 ```plaintext
 [User] → [UI/CLI] → [Preislogik] → [Exportmodul]
                       ↓
-               [KI-Modul (lokal)]
 ## 7. Schnittstellen
 - **REST-API**: für externe Anbindung (ERP, MES)
 - **Datei-API**: lokale Verarbeitung von Excel/CSV
