@@ -54,7 +54,14 @@ Der Projektname wurde im Zuge der Portfolio-Optimierung geändert.
 - `DISCLAIMER.md`: Hinweise zu Datenschutz & Modellnutzung
 
 ---
+## 📂 Repository-Inhalte
 
+- `ARCHITECTURE.md`: Modulstruktur & Layer-Design  
+- `DEVELOPER.md`: Entwicklerprofil & Marktwert-Matrix  
+- `backend-review.pdf`: Peer Review nach 4 Monaten  
+- `DISCLAIMER.md`: Hinweise zu Datenschutz & Modellnutzung
+
+---
 ## 🧩 Hinweis zur Modellnutzung
 
 Während der Entwicklung wurden lokale KI-Modelle zur Analyse und Refactoring-Unterstützung verwendet.  
