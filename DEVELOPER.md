@@ -58,7 +58,15 @@
 | Produktivität | Senior Output | 90.000 € – 110.000 € |
 
 ---
+## 📎 Peer Review & Validierung
 
+Nach 4 Monaten Entwicklungszeit wurde das Projekt von meiner Mentorin technisch begutachtet.  
+Die Review bestätigt die Architekturqualität, Produktivität und Dokumentationstiefe des Systems.  
+Das Review-Dokument ist als PDF eingebunden: [backend-review.pdf](./backend-review.pdf)
+
+Diese externe Validierung erfüllt die Kriterien eines Review Case nach CPSA-Standard und dokumentiert meine Rolle als faktischer Softwarearchitekt.
+
+---
 ## 📎 Validierung & Verlinkungen
 
 - [README.md](./README.md) – Projektübersicht  
