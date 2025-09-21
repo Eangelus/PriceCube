@@ -1,26 +1,38 @@
-# 🔐 Security-Audit – PriceCube
+# 🔐 SECURITY_AUDIT.md – PriceCube
 
-## 1. OWASP Top 10 Mapping
+## 1. Authentifizierung
 
-| Risiko                         | Maßnahme im Projekt                          |
-|-------------------------------|-----------------------------------------------|
-| A01: Injection                | Dapper mit Parametrisierung                   |
-| A02: Broken Authentication    | JWT via Keycloak, OIDC                        |
-| A03: Sensitive Data Exposure  | TLS 1.2 enforced, Secrets via GitLab Vault    |
-| A05: Security Misconfiguration| HTTPS, Logging, strukturierte Configs         |
-| A06: Vulnerable Components    | NuGet Audit, manuelle Prüfung                 |
-| A09: Logging & Monitoring     | Serilog, Prometheus, Audit-Log                |
+- JWT-basierte Authentifizierung für externe Nutzer  
+- Windows Authentication für interne Nutzer  
+- OIDC via Keycloak (optional)
 
-## 2. Vorgaben
-- Security-Strategie wurde vollständig durch die Firma vorgegeben.
-- Authentifizierung, Token-Handling und TLS waren technisch vorbereitet.
-- Fokus lag auf korrekter Integration und Schnittstellen-Mapping.
+## 2. Autorisierung
 
-## 3. Umsetzung
-- Keine Eigenentwicklung im Security-Bereich.
-- OWASP-konforme Umsetzung durch Einhaltung interner Standards.
-- Dokumentation erfolgt im Architektur-Review und README.
+- Rollenbasierte Zugriffskontrolle  
+- Claims-basierte Validierung  
+- Zugriff auf sensible Endpunkte nur für berechtigte Rollen
 
-## 4. Review
-- Selbstbewertung anhand OWASP-Kriterien.
-- Peer-Review optional möglich.
+## 3. Input Validation
+
+- Serverseitige Validierung aller Formulareingaben  
+- Schutz vor SQL Injection durch Dapper + Parameterisierung  
+- Schutz vor XSS durch HTML-Encoding und Whitelisting
+
+## 4. Transport-Sicherheit
+
+- HTTPS Enforcement  
+- TLS 1.2+  
+- Keine unverschlüsselte Kommunikation
+
+## 5. Secrets Management
+
+- Zugriffstoken und API-Keys in `.env` oder GitLab Secrets  
+- Keine sensiblen Daten im Repository
+
+## 6. Audit & Logging
+
+- Serilog mit strukturierter Log-Ausgabe  
+- Audit Trails für sicherheitsrelevante Aktionen  
+- Monitoring via Prometheus
+
+> Letzte Aktualisierung: September 2025
