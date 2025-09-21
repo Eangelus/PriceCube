@@ -31,9 +31,15 @@ PriceCube ist ein lokal ausgeführtes Preiskalkulationssystem für komplexe Prod
 - **KI-Modul**: lokale Inferenz, z. B. für Formelinterpretation
 
 ## 6. Laufzeitsicht
-```plaintext
-[User] → [UI/CLI] → [Preislogik] → [Exportmodul]
-                      ↓
+
+Laufzeitdiagramm:
+
+    [User] → [UI/CLI] → [Preislogik] → [Exportmodul]
+                          ↓
+                   [KI-Modul (lokal)]
+
+Optional: MES-Daten können über REST oder OPC UA angebunden werden.
+
 ## 7. Schnittstellen
 - **REST-API**: für externe Anbindung (ERP, MES)
 - **Datei-API**: lokale Verarbeitung von Excel/CSV
@@ -55,3 +61,5 @@ PriceCube ist ein lokal ausgeführtes Preiskalkulationssystem für komplexe Prod
 - **OPC UA**: Protokoll für Maschinenkommunikation
 - **REST**: Webschnittstelle für externe Systeme
 - **PriceCube**: dein System zur Preiskalkulation
+
+> Hinweis: Diese Dokumentation basiert auf einem privat entwickelten System und enthält keine vertraulichen oder unternehmensinternen Informationen. Alle Inhalte sind frei formuliert und dienen der technischen Transparenz.
