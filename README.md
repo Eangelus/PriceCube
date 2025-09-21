@@ -603,8 +603,8 @@
   Thomas Bernecker
 
 
-  - ✅ Peer Review durch die ursprüngliche.                  Prototyp-Entwicklerin  
-✅ Dokumentierte Eigenleistung in PDF-Form
+  - ✅ Peer Review durch die ursprüngliche. Prototyp-Entwicklerin  
+  - ✅ Dokumentierte Eigenleistung in PDF-Form
   - ✅ Real-time Dashboard functionality
   - ✅ Excel processing capabilities
   - ✅ CRUD operations demonstration
