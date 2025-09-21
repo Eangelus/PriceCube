@@ -2,6 +2,12 @@
 
 > 🧠 Hinweis: Dieser Bericht wurde KI-gestützt erstellt und basiert auf meiner tatsächlichen Git-Historie, Architekturentscheidungen und Projektdokumentation. Alle Inhalte wurden manuell kuratiert und reflektieren meine Rolle als faktischer Softwarearchitekt.
 
+# PriceCube
+
+Ein lokal ausgeführtes Preiskalkulationssystem für komplexe Produktstrukturen – entwickelt in nur 6 Monaten, produktiv im Einsatz. Fokus auf Datenschutz, Effizienz und technische Transparenz.
+
+🔒 Der produktive Code wird aus Datenschutzgründen nicht veröffentlicht.  
+📄 Architektur, Dokumentation und Peer Review sind vollständig sichtbar.
 
   📋 VOLLSTÄNDIGER ENTWICKLER-ASSESSMENT-BERICHT
 
@@ -587,6 +593,7 @@
   From database design to responsive UI, handling German business requirements and ERP integration.
 
 ## Was macht PriceCube besonders?
+
 - Vollständig lokal, ohne Cloud oder Ollama
 - Entwickelt in nur 6 Monaten, produktiv im Einsatz
 - Markdown-Dokumentation mobil kopierbar
