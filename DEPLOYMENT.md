@@ -1,36 +1,36 @@
-# 🚀 Deployment-Dokumentation – PriceCube
+# 🚀 DEPLOYMENT.md – PriceCube
 
-## 1. CI/CD-Plattform
-- GitLab CI/CD ist vollständig eingerichtet.
-- Runner: Shared Runner + interner Testserver.
-- Secrets: verwaltet über `.env` und GitLab Vault.
+## 1. Zielsystem
 
-## 2. Branch-Strategie
-- `main`: stabil, releasefähig.
-- `dev`: Integration, Feature-Merges.
-- `feature/*`: neue Funktionen.
-- Merge via Merge-Request mit Reviewpflicht.
+- Lokale Ausführung auf Windows-Servern  
+- Keine Cloud-Abhängigkeit  
+- ERP-Anbindung über REST-API (Oxaion)
 
-## 3. Pipeline-Phasen
-- `build`: Restore, Compile mit .NET 8.
-- `test`: xUnit-Tests, Coverage-Analyse.
-- `lint`: StyleCop, Roslyn-Analyser.
-- `deploy`: automatisiertes Deployment auf Testserver via SSH.
+## 2. CI/CD Pipeline
+
+- GitLab CI mit automatisierten Build-, Test- und Deploy-Stages  
+- Docker-Containerisierung für lokale Testumgebung  
+- PowerShell-Skripte zur Initialisierung und Konfiguration
+
+## 3. Deployment-Schritte
+
+1. Code Push → GitLab Trigger  
+2. Build mit .NET 8 SDK  
+3. Unit Tests via xUnit  
+4. Docker Image Build  
+5. Deployment auf Zielsystem  
+6. Konfiguration via `appsettings.json` + Secrets
 
 ## 4. Monitoring & Logging
-- Serilog: File-Logging + Seq-Integration.
-- Prometheus: Metriken für Performance und Health.
-- Alerts via Grafana (optional konfigurierbar).
 
-## 5. Rollback-Strategie
-- GitLab Tags + Docker Image Versionierung.
-- Manuelles Rollback über GitLab UI oder Shell-Skript.
+- Serilog für strukturierte Logs  
+- Prometheus für Metriken  
+- Application Insights für Telemetrie
 
-## 6. Besonderheiten
-- ERP-Testdaten via Mock-Service.
-- Excel-Upload wird vor Deployment validiert.
-- SignalR-Dashboard wird nach erfolgreichem Build aktualisiert.
+## 5. Besonderheiten
 
-## 7. Review
-- CI/CD wurde im Backend-Review dokumentiert.
-- Selbstbewertung anhand Stabilität, Wartbarkeit und Deployment-Zeit.
+- Excel-Upload via ClosedXML  
+- Echtzeit-Feedback via SignalR  
+- ERP-Sync mit resilientem Retry-Mechanismus
+
+> Letzte Aktualisierung: September 2025
