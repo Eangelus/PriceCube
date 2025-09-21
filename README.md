@@ -586,6 +586,12 @@
 
   From database design to responsive UI, handling German business requirements and ERP integration.
 
+## Was macht PriceCube besonders?
+- Vollständig lokal, ohne Cloud oder Ollama
+- Entwickelt in nur 6 Monaten, produktiv im Einsatz
+- Markdown-Dokumentation mobil kopierbar
+- Architektur sichtbar gemacht in ARCHITECTURE.md
+
   ---
   📞 CONTACT & VERIFICATION
 
