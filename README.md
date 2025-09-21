@@ -50,7 +50,7 @@ Der Projektname wurde im Zuge der Portfolio-Optimierung geändert.
 
 - `ARCHITECTURE.md`: Modulstruktur & Layer-Design  
 - `DEVELOPER.md`: Entwicklerprofil & Marktwert-Matrix  
-- `backend-review.pdf`: Zwischenstand nach 4 Monaten  
+- `Backend-Review_Barthuber.pdf`: Zwischenstand nach 4 Monaten  
 - `DISCLAIMER.md`: Hinweise zu Datenschutz & Modellnutzung
 
 ---
