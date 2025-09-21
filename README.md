@@ -591,6 +591,9 @@
 - Entwickelt in nur 6 Monaten, produktiv im Einsatz
 - Markdown-Dokumentation mobil kopierbar
 - Architektur sichtbar gemacht in ARCHITECTURE.md
+
+👉 [Zur Architekturdokumentation](./ARCHITECTURE.md)
+
 ![Last Commit](https://img.shields.io/github/last-commit/Eangelus/PriceCube)
 ![Repo Size](https://img.shields.io/github/repo-size/Eangelus/PriceCube)
 ![Issues](https://img.shields.io/github/issues/Eangelus/PriceCube)
