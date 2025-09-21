@@ -83,7 +83,7 @@ Es basiert auf dokumentierten Architekturentscheidungen, technischer Umsetzung u
 - Refactoring von Anti-Patterns (z. B. Async-Fehler)
 
 **Dokumentiert in**:  
-- `backend-review.pdf`  
+- `Backend_Review_Barthuber.pdf`  
 - `DEVELOPER.md`  
 - `README.md`
 
