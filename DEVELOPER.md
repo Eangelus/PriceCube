@@ -4,7 +4,7 @@
 
 - **Name**: Thomas Bernecker  
 - **GitHub**: [@Eangelus](https://github.com/Eangelus)  
-- **Rolle**: Lead Developer / faktischer Softwarearchitekt  
+- **Rolle**: faktischer Softwarearchitekt  
 - **Projekt**: [PriceCube](https://github.com/Eangelus/PriceCube)  
 - **Arbeitsweise**: Clean Architecture, dokumentationsstark, sicherheitsbewusst
 
