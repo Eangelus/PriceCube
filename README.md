@@ -1,4 +1,4 @@
-> 📌 Hinweis: Dieser Bericht basiert auf meiner persönlichen Entwicklungsarbeit und öffentlich zugänglichen Technologien. Alle Inhalte wurden manuell kuratiert und enthalten keine vertraulichen Informationen meines Arbeitgebers. Erwähnte Systeme wie „Oxaion“ dienen ausschließlich der technischen Kontextualisierung.
+8> 📌 Hinweis: Dieser Bericht basiert auf meiner persönlichen Entwicklungsarbeit und öffentlich zugänglichen Technologien. Alle Inhalte wurden manuell kuratiert und enthalten keine vertraulichen Informationen meines Arbeitgebers. Erwähnte Systeme wie „Oxaion“ dienen ausschließlich der technischen Kontextualisierung.
 
 > 🧠 Hinweis: Dieser Bericht wurde KI-gestützt erstellt und basiert auf meiner tatsächlichen Git-Historie, Architekturentscheidungen und Projektdokumentation. Alle Inhalte wurden manuell kuratiert und reflektieren meine Rolle als faktischer Softwarearchitekt.
 
@@ -603,6 +603,8 @@
   Thomas Bernecker
 
 
+  - ✅ Peer Review durch die ursprüngliche.                  Prototyp-Entwicklerin  
+✅ Dokumentierte Eigenleistung in PDF-Form
   - ✅ Real-time Dashboard functionality
   - ✅ Excel processing capabilities
   - ✅ CRUD operations demonstration
