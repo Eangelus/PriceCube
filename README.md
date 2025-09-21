@@ -1,5 +1,6 @@
 # PriceCube – Enterprise Preiskalkulationssystem
 
+📄 Hinweis: Das Projekt wurde ursprünglich unter anderem Namen entwickelt. Details siehe [DISCLAIMER.md](./DISCLAIMER.md).
 ## 🧭 Überblick
 
 PriceCube ist ein lokal ausführbares Preiskalkulationssystem mit ERP-Integration, entwickelt in 6 Monaten.  
