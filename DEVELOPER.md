@@ -71,7 +71,7 @@ Diese externe Validierung erfüllt die Kriterien eines Review Case nach CPSA-Sta
 
 - [README.md](./README.md) – Projektübersicht  
 - [ARCHITECTURE.md](./ARCHITECTURE.md) – Modulstruktur  
-- [backend-review.pdf](./backend-review.pdf) – Zwischenstand  
+- [Backend_Review_Barthuber.pdf](./Backend_Review_Barthuber.pdf) – Zwischenstand  
 - [LinkedIn (optional)](https://www.linkedin.com/in/thomas-bernecker) – Marktwertvalidierung
 
 ---
