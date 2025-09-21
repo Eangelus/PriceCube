@@ -1,51 +1,55 @@
-# PriceCube – Produktives Preiskalkulationssystem
+# PriceCube – Lokales Preiskalkulationssystem mit dokumentierter Architektur
 
 ## 🧭 Projektüberblick
 
-PriceCube ist ein lokal ausführbares Preiskalkulationssystem, das in nur sechs Monaten aus einem Prototyp zu einem produktiven Backend weiterentwickelt wurde. Die Lösung wurde strukturiert, dokumentiert und ist wartbar aufgebaut – mit Fokus auf Datenschutz, Effizienz und technischer Klarheit.
+PriceCube ist ein lokal ausführbares Preiskalkulationssystem, entwickelt mit Fokus auf Clean Architecture, Sicherheit und Wartbarkeit.  
+Die Lösung wurde in 6 Monaten produktiv umgesetzt und dokumentiert – inklusive Peer Review und modularer Struktur.
 
-> 📄 Die ursprüngliche Entwicklerin bestätigte in einer internen Beurteilung die Qualität und Produktivität der Lösung.
+👉 Architekturdetails: [ARCHITECTURE.md](./ARCHITECTURE.md)
 
 ## ⚙️ Technologie-Stack
 
-- .NET (C#)
-- Docker (lokale Ausführung)
-- PowerShell & Python (für KI-nahe Tools und Videoverarbeitung)
-- Markdown-basierte Dokumentation
-- GitHub als öffentliches Portfolio (ohne produktiven Code)
+- .NET 8.0 (C#)
+- SQL Server + Dapper ORM
+- Serilog + Prometheus Monitoring
+- GitLab CI/CD Pipeline
+- Excel-Integration mit ClosedXML
+- JWT + Windows Authentication
 
 ## 🧠 Architekturprinzipien
 
-- Modularer Aufbau mit klaren Service-Grenzen  
-- Trennung von UI, Business Logic und Datenhaltung  
+- Clean Architecture mit klarer Layer-Trennung  
+- SOLID-Prinzipien durchgängig umgesetzt  
+- Modularer Aufbau: Services, Repositories, Controller  
 - Keine Cloud-Abhängigkeit im produktiven System  
-- KI-Modelle wurden lokal getestet, externe Modelle wie Claude kamen erst später zum Einsatz und wurden nicht produktiv eingebunden
+- Lokale KI-Tools wurden punktuell verwendet, aber nicht produktiv eingebunden
 
-👉 Details zur Architektur: [ARCHITECTURE.md](./ARCHITECTURE.md)
+## 🔐 Sicherheit & Datenschutz
 
-## 🔐 Datenschutz & Sicherheit
+- Multi-Layer Authentication  
+- Input Validation & Exception Handling  
+- Keine sensiblen Daten im Repository  
+- Lokale Ausführung ohne externe API-Abhängigkeiten
 
-- Keine sensiblen Daten im öffentlichen Repository  
-- Produktive Lösung läuft lokal, ohne externe API-Abhängigkeiten  
-- Dokumentation enthält keine internen Geschäftslogiken oder vertrauliche Inhalte
+## 📈 Projektmetriken
 
-## 📈 Business Impact
-
-- Produktives System in 6 Monaten  
-- Peer Review durch die ursprüngliche Entwicklerin  
-- Strukturierte Dokumentation für Wartung und Skalierung  
-- GitHub-Metriken: >12.000 Zeilen C#, 317 Commits, 16 Projekte
+- 317 Commits  
+- >12.000 Zeilen C#  
+- 16 Projekte (.NET)  
+- 8 Test-Projekte mit xUnit/Moq  
+- Peer Review durch ursprüngliche Entwicklerin bestätigt
 
 ## 📂 Repository-Inhalte
 
-- `ARCHITECTURE.md`: Technische Struktur und Modulübersicht  
-- `DISCLAIMER.md`: Hinweise zur Datenvermeidung und Compliance  
+- `ARCHITECTURE.md`: Modulstruktur und Layer-Übersicht  
+- `DEVELOPER.md`: Entwicklerprofil und Arbeitsanalyse  
 - `backend-review.pdf`: Zwischenstand nach 4 Monaten  
-- Keine produktiven Daten oder Geschäftslogik enthalten
+- `DISCLAIMER.md`: Hinweise zu Datenvermeidung und Modellnutzung
 
 ## 🧩 Hinweis zur Modellnutzung
 
-Zum Zeitpunkt der Entwicklung war Claude nicht verfügbar. Ein lokal eingebundenes GPT-Modell wurde verwendet. Externe Modelle wurden später punktuell getestet, aber nicht produktiv eingebunden.
+Zum Entwicklungszeitpunkt wurde ein lokal eingebundenes GPT-Modell verwendet.  
+Externe Modelle wie Claude wurden später getestet, aber nicht produktiv eingebunden.
 
 ## 🗂️ Lizenz & Nutzung
 
